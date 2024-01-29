@@ -1,0 +1,116 @@
+/* src/components/Livros.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('D:\socorro Deus\a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #eee;
+  line-height: 1.6;
+  margin: 0;
+  height: 100vh; /* Ajusta a altura para ocupar 100% da altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.livros-container {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: #eee;
+}
+
+h1, h2 {
+  color: #d4a059; /* Cor para título em tons terrosos mais claros */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #bbb; /* Cor do texto mais clara */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #d4a059; /* Cor do botão em tons terrosos mais claros */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+  border-radius: 5px; /* Adicionado para bordas mais arredondadas */
+}
+
+button:hover {
+  background-color: #b07638; /* Cor mais escura ao passar o mouse */
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #555; /* Cor da borda mais escura */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d4a059; /* Cor de fundo do cabeçalho da tabela em tons terrosos mais claros */
+  color: #fff;
+}
+
+/* Estilo para mensagens de sucesso e erro */
+.mensagem {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.success {
+  background-color: #5d924d; /* Cor de fundo verde para sucesso em tons terrosos mais claros */
+  color: #fff;
+}
+
+.error {
+  background-color: #9c3d3d; /* Cor de fundo vermelha para erro em tons terrosos mais claros */
+  color: #fff;
+}
+.lista-livros .livro-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.lista-livros .livro-info {
+  flex-grow: 1;
+}
+
+.lista-livros .botoes-acoes {
+  display: flex;
+  gap: 10px;
+}
